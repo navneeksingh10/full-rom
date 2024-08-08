@@ -1,0 +1,521 @@
+body{
+    background-color:black;
+}
+.nav-button{
+    background-color: white;
+}
+.nav-bar{
+    font-family:Poppins;
+        /* position: fixed;
+        width: 100%;
+        top: 0;
+        background: black;
+        z-index: 3; */
+}
+.hogar{
+    color: red;
+}
+.hogar:hover {
+    color: white;
+}
+.hogar:focus{
+    color: red;
+}
+
+.li1{
+    color: white;
+}
+.li1:hover{
+    color: red;  
+}
+.li1:focus{
+    color: white;
+}
+.drop-back{
+    background-color: black;
+}
+.drop{
+    color:white;
+}
+.drop:hover{
+    background-color: black ;
+    color:red;
+}
+.navbar-hr{
+    border: 1px solid red;
+}
+.button1{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    padding: 8px 20px;
+   
+}
+.button1:hover{
+    background-color: white;
+    color: red;
+    
+}
+.ul1 > li{
+    padding: 15px;
+}
+.ul1  a{
+    font-size: 16px;
+}
+.search{
+    color: red;
+}
+.search:hover{
+    color: white;
+    
+}
+.margin-section1{
+    margin-top: 80px;
+}
+.margin-section{
+    margin-top: 50px;
+}
+.bannerside1{
+    z-index: 1;
+}
+.head1{
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:Poppins;
+}
+.head2{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 64px;
+    color: white;
+    font-family: Montserrat;
+}
+.para1{
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    font-family:Poppins;
+}
+.button2{
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-family:Poppins;
+    border-color: red;
+    padding: 8px 10px;
+    margin-right: 12px;
+}
+.button2:hover{
+    background-color: white;
+    color: red;
+   
+}
+.button3{
+    color: white;
+    border-color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-family:Poppins;
+    padding: 8px 10px;
+}
+.button3:hover{
+    border-color: red;
+    color: red;
+   
+}
+.gym-img1{
+    margin-top: -35%;
+    margin-left: -17%;
+    max-width: 130%;
+}
+.squats-img{
+    border-radius: 0%;
+}
+.small-box{
+    background-color: red;
+    color: white;
+    padding: 30px 0;
+    width: 265px;
+    height: 147px;
+}
+.para2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family:Poppins;
+
+}
+.head3{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    font-family:Poppins;
+
+}
+.frequent{
+    padding: 0 150px;
+}
+.number{
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    font-family:Poppins;
+}
+.plus{
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+    padding:5px; 
+}
+.numbers-border{
+    border-right: 2px solid #292b2c;
+}
+.bg-image{
+    background-image: url('../images/bgimage.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quotes{
+    font-size: 132px;
+    font-weight: 700;
+    font-family: "Noto Sans KR";
+    color: white;
+}
+.testimonial{
+    padding: 100px 0;
+}
+.testimonial-para{
+    padding: 0px 100px;
+}
+.para3{
+    font-size: 26px;
+    color: white;
+    font-family:Poppins;
+}
+.para4{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Lato;
+}
+.hr-line{
+    border: 2px solid;
+}
+.head4{
+    font-size: 42px;
+    font-weight: 600;
+    font-family: Lato;
+    color: white;
+}
+.footer-section{
+    background-color: #2E2E32;
+}
+.footer-section  a{
+    padding: 5px;
+}
+.para5{
+    font-size: 18px;
+    color: white;
+    font-family:Poppins;
+
+}
+.footer-icons{
+    color: white;
+}
+.footer-icons:hover{
+    color: red;
+}
+.head5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.para6{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: white;
+}
+.para7{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: white;
+}
+.para7:hover{
+    color:red;
+}
+.footer-icons1{
+    color: red;
+}
+.ul2{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+@media(max-width:1400px){
+    .gym-img1{
+        margin-top: -38%;
+        margin-left: -17%;
+        max-width: 130%;
+        }
+        .head2{
+            font-size: 40px;
+            line-height: 60px;
+        }
+        .small-box{
+            padding: 28px 0;
+            width: 260px;
+            height: 142px;
+        }
+        .para2{
+            font-size: 17px;
+        }
+}   
+
+@media(max-width:1200px){
+    .head1{
+        font-size: 15px;
+    }
+    .head2{
+        font-size: 38px;
+        line-height: 57px;
+    }
+    .head4{
+        font-size: 40px;
+    }
+    .para1{
+        font-size: 15px;
+    }
+    .button2, .button3{
+        font-size: 16px;
+    }
+    .small-box{
+        padding: 26px 0;
+            width: 256px;
+            height: 140px;
+    }
+    .para2{
+        font-size: 16px;
+    }
+    .para5{
+        font-size: 17px;
+    }
+    .head5{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .para6{
+        font-size: 15px;
+    }
+    .para7{
+        font-size: 13px;
+    }
+    .ul2{
+        padding: 0;
+    }
+}
+
+@media(max-width:992px){
+    .button2, .button3{
+        font-size: 15px;
+    }
+    .head1{
+        font-size: 14px;
+    }
+    .head2{
+        font-size: 36px;
+        line-height: 55px;
+    }
+    .para1{
+        font-size: 14px;
+    }
+    .head4{
+        font-size: 38px;
+    }
+     .gym-img1{
+        margin-top: -80%;
+        margin-left: 0%;
+        max-width: 105%;
+        }
+        .small-box{
+            padding: 20px 2px;
+            width: 240px;
+            height: 135px;
+        }
+        .para2{
+            font-size: 15px;
+            font-weight: 700;
+            font-family:Poppins;
+        
+        }
+        .numbers-border{
+            border-right: none;
+        }
+        .doubleimg{
+            text-align: center;
+        }
+        .quotes{
+            font-size: 120px;
+        }
+        .testimonial{
+            padding: 80px 0;
+        }
+        .para4{
+            font-size: 18px;
+        }
+        .para5{
+            font-size: 16px;
+        }
+        .footer-row1{
+            margin-top: 50px;
+        }
+        .frequent{
+            padding: 0 70px;
+        }
+        .head5{
+            font-size: 14px;
+        }
+        .para6{
+            font-size: 14px;
+        }
+        .testimonial-para{
+            padding: 0px 50px;
+        }
+}
+
+@media(max-width:768px){
+    .head1{
+        font-size: 14px;
+    }
+    .head2{
+        font-size: 35px;
+        line-height: 52px;
+    }
+    .para1{
+        font-size: 14px;
+    }
+    .cardio-img{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .thumbsup{
+        margin-top: 7px;
+    }
+    .para3{
+        font-size: 23px;
+        
+    }
+    .para5{
+        font-size: 16px;
+    }
+    .footer-row1{
+        margin-top: 40px;
+    }
+    .head5{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .para6{
+        font-size: 14px;
+    }
+    .gym-img1{
+        margin-top: -135%;
+        margin-left: 3%;
+        max-width: 100%;
+        }
+        .frequent{
+            padding: 0 50px;
+        }
+        .number{
+            font-size: 36px;
+        }
+        .testimonial-para{
+            padding: 0px 25px;
+        }
+}
+
+@media(max-width:576px){
+    .gym-img1{
+        margin-top: -270%;
+        margin-left: 3%;
+        max-width: 100%;
+        }
+    .margin-section{
+        margin-top: 50px;
+    }
+    .head1{
+        font-size: 13px;
+    }
+    .head2{
+        line-height: 50px;
+        font-size: 33px;
+    }
+    .head4{
+        font-size: 34px;
+    }
+    .button2, .button3{
+        font-size: 13px;
+        padding: 6px 8px;
+    }
+    .small-box{
+        padding: 13px 1px;
+        width: 230px;
+        height: 125px;
+    }
+    .number{
+        font-size: 34px;
+    }
+    .quotes{
+        font-size: 100px;
+    }
+    .testimonial{
+        padding: 60px 0;
+    }
+    .para1{
+        font-size: 13px;
+    }
+    .para4{
+        font-size: 16px;
+    }
+    .head5{
+        font-size: 13px;
+    }
+    .para6{
+        font-size: 13px;
+    }
+    .para7{
+        font-size: 12px;
+    }
+    .frequent{
+        padding: 0 30px;
+    }
+    .testimonial-para{
+        padding: 0px 12px;
+        /* text-align: justify; */
+    }
+}
+
+@media(max-width:440px){
+    .button2{
+        margin-right: 0;
+    }
+    .head2{
+        line-height: 48px;
+        font-size: 32px;
+    }
+    .head4{
+        font-size: 32px;
+    }
+}
+
